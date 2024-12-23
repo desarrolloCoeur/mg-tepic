@@ -1,17 +1,25 @@
 'use client'
-/* eslint-disable no-undef */
+import { useEffect } from "react";
 import zenScroll from "zenscroll";
 
 const Navbar = () => {
-  window.addEventListener("scroll", () => {
-    const scrolled = window.scrollY;
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrolled = window.scrollY;
 
-    if (scrolled > 900) {
-      document.getElementById("navbar").style.width = "80%";
-    } else {
-      document.getElementById("navbar").style.width = "90%";
-    }
-  });
+      if (scrolled > 900) {
+        document.getElementById("navbar").style.width = "80%";
+      } else {
+        document.getElementById("navbar").style.width = "90%";
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
     <div className="nav fixed flex justify-center w-full text-white bg-[#101010] z-10">
