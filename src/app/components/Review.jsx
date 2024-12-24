@@ -65,7 +65,7 @@ const Review = () => {
               >
                 ❮
               </button>
-              <div className="border-[1px] border-gray-700 p-5 w-full m-5 bg-[#0000004f] text-center max-xl:h-[200px] max-md:h-[350px]">
+              <div className="border-[1px] border-gray-700 p-5 w-full m-5 bg-[#0000004f] text-center max-xl:h-[220px] max-sm:h-[350px]">
                 <h1>{reviewsData.reviews[currentIndex].name}</h1>
                 <p className="my-2">
                   {reviewsData.reviews[currentIndex].rating}

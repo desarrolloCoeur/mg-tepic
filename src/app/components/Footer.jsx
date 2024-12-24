@@ -1,4 +1,4 @@
-'use client'
+"use client";
 /* eslint-disable no-undef */
 import zenScroll from "zenscroll";
 
@@ -15,7 +15,9 @@ const Footer = () => {
               src="/img/logo-blanco.png"
               alt=""
             /> */}
-            <p className="my-2">De Los Insurgentes Pte. 608, Estadios, 63109 Tepic, Nay.</p>
+            <p className="my-2">
+              De Los Insurgentes Pte. 608, Estadios, 63109 Tepic, Nay.
+            </p>
             <p className="mb-2"> +52 311 275 1920</p>
             <p> correo</p>
           </div>
@@ -35,14 +37,21 @@ const Footer = () => {
             >
               Servicio
             </p>
-            <p className="mb-3 cursor-pointer hover:text-gray-500 ease-in-out duration-200">Ventas</p>
-            <p className="mb-3 cursor-pointer hover:text-gray-500 ease-in-out duration-200">Contacto</p>
+            <p className="mb-3 cursor-pointer hover:text-gray-500 ease-in-out duration-200">
+              Ventas
+            </p>
+            <p
+              onClick={() => zenScroll.to(contact)}
+              className="mb-3 cursor-pointer hover:text-gray-500 ease-in-out duration-200"
+            >
+              Contacto
+            </p>
           </div>
         </div>
       </div>
       <div className="w-full flex justify-center">
         <div className="w-[80%] text-center p-5 border-t-[1px] border-red-700 align-self">
-          <p>MG Tepic - 2024</p>
+          <p>©MG Tepic - 2024</p>
         </div>
       </div>
     </div>
