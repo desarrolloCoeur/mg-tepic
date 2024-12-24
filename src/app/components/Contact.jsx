@@ -13,7 +13,7 @@ const Contact = () => {
         alt="contact"
       />
       <div className="w-[80%] align-center flex justify-center py-10 max-md:w-[100%] max-md:py-0">
-        <div className="align-center text-white  w-[40%] max-xl:w-[80%] max-md:w-full border-[1px] border-gray-600 p-10 bg-[#1a1a1aee] z-[1] ">
+        <div className="align-center text-white  w-[40%] max-xl:w-[80%] max-md:w-full border-[1px] max-md:border-0 border-gray-600 p-10 bg-[#1a1a1aee] z-[1] backdrop-blur-sm">
           <form action="" className="w-full text-white ">
             <h1 className="text-center text-2xl">CONTACTANOS</h1>
             <input
