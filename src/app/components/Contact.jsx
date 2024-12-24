@@ -12,7 +12,7 @@ const Contact = () => {
         src="/img/contact.jpg"
         alt="contact"
       />
-      <div className="w-[80%] align-center flex justify-center py-10">
+      <div className="w-[80%] align-center flex justify-center py-10 max-md:w-[100%] max-md:py-0">
         <div className="align-center text-white  w-[40%] max-xl:w-[80%] max-md:w-full border-[1px] border-gray-600 p-10 bg-[#1a1a1aee] z-[1] ">
           <form action="" className="w-full text-white ">
             <h1 className="text-center text-2xl">CONTACTANOS</h1>
@@ -24,12 +24,13 @@ const Contact = () => {
             <br />
             <input
               type="text"
+              inputMode="numeric"              
               placeholder="Tel. Celular"
               className="p-1 border-b-[1px] h-[40px] border-gray-600 hover:bg-[#1a1a1a] w-full focus:border-red-500 my-5"
             />
             <br />
             <input
-              type="text"
+              type="email"
               placeholder="Email"
               className="p-1 border-b-[1px] h-[40px] border-gray-600 hover:bg-[#1a1a1a] w-full focus:border-red-500 my-5"
             />

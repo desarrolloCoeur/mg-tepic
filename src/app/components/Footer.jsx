@@ -4,7 +4,7 @@ import zenScroll from "zenscroll";
 
 const Footer = () => {
   return (
-    <div className="bg-[#10100e] text-[#f0e7db]">
+    <div className="bg-[#10100e] text-white">
       <div className="w-full h-[230px]  flex justify-center ">
         <div className="w-[80%] align-self h-full flex justify-between">
           <div className="p-8 max-lg:text-sm max-lg:py-8 max-lg:px-0">

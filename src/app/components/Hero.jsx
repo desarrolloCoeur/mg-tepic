@@ -2,9 +2,9 @@
 import React from "react";
 
 const Hero = () => {
-  
+
   return (
-    <div className="relative  min-h-max bg-black w-full h-[100vh] text-[#f0e7db]">
+    <div className="relative  min-h-max bg-black w-full h-[100vh] text-white">
       <img
         className="background absolute object-cover object-center h-[100vh] w-full brightness-50"
         src="/img/Hero.jpg"
