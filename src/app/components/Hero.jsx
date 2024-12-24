@@ -2,6 +2,7 @@
 import React from "react";
 
 const Hero = () => {
+  
   return (
     <div className="relative  min-h-max bg-black w-full h-[100vh] text-[#f0e7db]">
       <img
