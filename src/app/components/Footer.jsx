@@ -22,7 +22,7 @@ const Footer = () => {
             <p> correo</p>
           </div>
           <div className="w-[50%] p-10 max-lg:text-sm max-lg:w-auto max-lg:px-0">
-            <h1 className="mb-3 text-red-700 font-bold text-xl max-lg:text-sm">
+            <h1 className="mb-3 font-bold text-xl max-lg:text-sm">
               Navegacion:
             </h1>
             <p
