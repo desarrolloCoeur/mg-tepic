@@ -5,16 +5,15 @@ import zenScroll from "zenscroll";
 const Footer = () => {
   return (
     <div className="bg-[#10100e] text-white">
-      <div className="w-full h-[230px]  flex justify-center ">
+      <div className="w-full   flex justify-center ">
         <div className="w-[80%] align-self h-full flex justify-between">
-          <div className="p-8 max-lg:text-sm max-lg:py-8 max-lg:px-0">
-            Logo
-            {/* <img
+          <div className="p-8 max-lg:text-sm max-lg:py-8 max-lg:px-0">            
+            <img
               className="mb-4"
-              width={90}
-              src="/img/logo-blanco.png"
+              width={80}
+              src="/img/logo-mg.png"
               alt=""
-            /> */}
+            />
             <p className="my-2">
               De Los Insurgentes Pte. 608, Estadios, 63109 Tepic, Nay.
             </p>

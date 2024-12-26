@@ -21,14 +21,19 @@ const Service = () => {
               </p>
             </div>
             <div className="flex justify-center">
-              <div
-                className="w-[190px] p-2 border-[1px] border-red-700 
+              <a
+                href="https://wa.me/+5213111091903?text=Hola,%20me%20gustaría%20agendar%20mi%20servicio."
+                target="_blank"
+              >
+                <div
+                  className="w-[190px] p-2 border-[1px] border-red-700 
               hover:bg-red-700 ease-in-out duration-200 text-center 
               mb-4 cursor-pointer
               "
-              >
-                Agenda tu servicio
-              </div>
+                >
+                  Agenda tu servicio
+                </div>
+              </a>
             </div>
           </div>
         </div>
@@ -53,26 +58,31 @@ const Service = () => {
               </p>
             </div>
             <div className="flex justify-center">
-              <div
-                className="w-[190px] p-2 border-[1px] border-red-700 
+              <a
+                href="https://wa.me/+5213111091903?text=Hola,%20me%20gustaría%20agendar%20mi%20cita%20en%20el%20taller."
+                target="_blank"
+              >
+                <div
+                  className="w-[190px] p-2 border-[1px] border-red-700 
               hover:bg-red-700 ease-in-out duration-200 text-center 
               mb-4 cursor-pointer
               "
-              >
-                Agenda tu cita hoy
-              </div>
+                >
+                  Agenda tu cita hoy
+                </div>
+              </a>
             </div>
           </div>
         </div>
       </div>
-      <div className="relative w-full flex justify-center overflow-hidden bg-[#101010] my-10">
+      <div data-aos="fade-up" className="relative w-full flex justify-center overflow-hidden bg-[#101010] my-10">
         <img
           className="absolute object-cover object-center h-full w-[50%] max-md:w-full"
           src="/img/servicio2.jpg"
           alt="servicio"
         />
         <div className="relative w-[85%] h-[500px] align-self">
-          <div
+          <div          
             className="absolute top-[50%] left-[80%] translate-y-[-50%] translate-x-[-50%] bg-[#1a1a1a] w-[400px] border-l-8 border-red-700 p-10
           max-md:left-[50%]
           max-md:w-full
@@ -100,19 +110,24 @@ const Service = () => {
             className="absolute top-[50%] left-[50%] translate-y-[-50%] translate-x-[-50%] 
            w-full text-center  p-10"
           >
-            <h1 className="text-2xl pb-2">
+            <h1 data-aos="fade-left" className="text-2xl pb-2">
               EL EQUIPO MG TEPIC ESTÁ LISTO PARA RECIBIRTE
             </h1>
-            <h2 className="text-md pb-2">Agendemos tu prueba de manejo</h2>
+            <h2 data-aos="fade-right" className="text-md pb-2">Agendemos tu prueba de manejo</h2>
             <div className="flex justify-center my-5">
-              <div
-                className="w-[190px] p-2 border-[1px] bg-[#00000075] border-red-700 
+              <a data-aos="fade-left"
+                href="https://wa.me/+5213111091903?text=Hola,%20me%20gustaría%20más%20información."
+                target="_blank"
+              >
+                <div
+                  className="w-[190px] p-2 border-[1px] bg-[#00000075] border-red-700 
               hover:bg-red-700 ease-in-out duration-200 text-center 
               mb-4 cursor-pointer
               "
-              >
-                Quiero saber más
-              </div>
+                >
+                  Quiero saber más
+                </div>
+              </a>
             </div>
           </div>
         </div>

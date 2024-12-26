@@ -44,16 +44,14 @@ const Navbar = () => {
       >
         <div className="flex justify-between w-full ">
           <div className="py-3">
-            {/* <img
+            <img
               onClick={() => zenScroll.toY(0)}
-              className="ease-in-out duration-200 cursor-pointer
-              max-lg:w-[50px]
+              className="ease-in-out duration-200 cursor-pointer              
               "
-              width={70}
-              src="/img/logo-blanco.png"
-              alt="COAM Urbanizacion"
-            /> */}
-            Logo
+              width={90}
+              src="/img/mg.png"
+              alt="logo mg"
+            />          
           </div>
           <div className="flex py-5 text-md max-lg:text-sm max-lg:py-5 max-md:hidden">
             <div
