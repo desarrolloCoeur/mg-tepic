@@ -23,6 +23,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <Head>
         <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=4" />
+        <link rel="icon" type="image/x-icon" href="favicon.ico" />
         <meta name="author" content="CoeurMkt" />
         <meta
           name="keywords"
