@@ -22,7 +22,7 @@ const Service = () => {
             </div>
             <div className="flex justify-center">
               <a
-                href="https://wa.me/+5213111091903?text=Hola,%20me%20gustaría%20agendar%20mi%20servicio."
+                href="https://wa.me/+523111082393?text=Hola,%20me%20gustaría%20agendar%20mi%20servicio."
                 target="_blank"
               >
                 <div
@@ -59,7 +59,7 @@ const Service = () => {
             </div>
             <div className="flex justify-center">
               <a
-                href="https://wa.me/+5213111091903?text=Hola,%20me%20gustaría%20agendar%20mi%20cita%20en%20el%20taller."
+                href="https://wa.me/+523111082393?text=Hola,%20me%20gustaría%20agendar%20mi%20cita%20en%20el%20taller."
                 target="_blank"
               >
                 <div
@@ -116,7 +116,7 @@ const Service = () => {
             <h2 data-aos="fade-right" className="text-md pb-2">Agendemos tu prueba de manejo</h2>
             <div className="flex justify-center my-5">
               <a data-aos="fade-left"
-                href="https://wa.me/+5213111091903?text=Hola,%20me%20gustaría%20más%20información."
+                href="https://wa.me/+5213111091903?text=Hola,%20me%20gustaría%20agendar%20una%20prueba%20de%20manejo."
                 target="_blank"
               >
                 <div

@@ -18,7 +18,7 @@ const Footer = () => {
               De Los Insurgentes Pte. 608, Estadios, 63109 Tepic, Nay.
             </p>
             <p className="mb-2"> +52 311 275 1920</p>
-            <p> correo</p>
+            <p>calidadmgtepic@flosolm.com</p>
           </div>
           <div className="w-[50%] p-10 max-lg:text-sm max-lg:w-auto max-lg:px-0">
             <h1 className="mb-3 font-bold text-xl max-lg:text-sm">
